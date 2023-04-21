@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 14px;
+}
+
+.workout-tracking {
+  margin: 5em auto;
+  width: 500px;
+}
+
+.workout-tracking-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  margin-bottom: 12px;
+  padding-left: 5px;
+}
+
+.workout-tracking-form input,
+.workout-tracking-form button {
+  height: 44px;
+  color: #1B1A1B;
+  background-color: #FFFFFF;
+  border: 2px solid #1B1A1B;
+  border-radius: 10px;
+}
+
+.workout-tracking-form input {
+  width: 188px;
+  margin-right: 20px;
+  padding: 5px 10px;
+}
+
+.workout-tracking-form button {
+  width: 80px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.workout-tracking-form button:hover {
+  background-color: #D3D3D3;
+}
+
+.workout-tracking-panel {
+  margin-top: 30px;
+}
+
+.workout-tracking-panel-header,
+.workout-tracking-panel-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.workout-tracking-panel-header {
+  margin-bottom: 12px;
+}
+
+.workout-tracking-panel-header div,
+.workout-tracking-panel-item div {
+  width: 33.333333%;
+  text-align: center;
+}
+
+.workout-tracking-panel-list {
+  min-height: 44px;
+  border: 2px solid #1B1A1B;
+  border-radius: 10px;
+}
+
+.workout-tracking-panel-item div {
+  padding: 12px;
+}
+
+.workout-tracking-panel-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.workout-tracking-panel-item .edit {
+  margin-right: 14px;
+}
